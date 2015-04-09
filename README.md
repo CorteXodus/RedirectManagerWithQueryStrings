@@ -3,6 +3,7 @@ Sitecore redirectmanager modified to support querystring handling
 
 This is the author of the original module
 http://blog.paulgeorge.co.uk/2012/01/10/sitecore-redirect-manager-module/
+
 And his work is still on codeplex.
 http://redirectmanager.codeplex.com/
 

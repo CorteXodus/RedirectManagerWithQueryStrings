@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{89D0710F-6446-4740-8BEB-63879B430CB7}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>RedirectManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sitecore.Kernel, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\inetpub\wwwroot\SC7Dev1\Website\bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Logging, Version=1.2.0.30715, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\inetpub\wwwroot\SC7Dev1\Website\bin\Sitecore.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RedirectManager.Interfaces\ILookupProvider.cs" />
+    <Compile Include="RedirectManager.Interfaces\IRedirect.cs" />
+    <Compile Include="RedirectManager.Pipelines.GetContentEditorWarnings\DisplayLinks.cs" />
+    <Compile Include="RedirectManager.Pipelines.HttpRequest\Redirector.cs" />
+    <Compile Include="RedirectManager.Pipelines.PublishItem\ExistsResponse.cs" />
+    <Compile Include="RedirectManager.Pipelines.PublishItem\Processor.cs" />
+    <Compile Include="RedirectManager.Properties\Settings.cs" />
+    <Compile Include="RedirectManager.Providers.Sql\LookupProvider.cs" />
+    <Compile Include="RedirectManager.Providers.Sql\Redirect.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Commands\AddQueryString.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Commands\AddRedirect.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Commands\DeleteQueryString.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Commands\DeleteRedirect.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Commands\ViewQueryString.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Pipelines\AddQueryString.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Pipelines\AddRedirect.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Pipelines\DeleteQueryString.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Pipelines\DeleteRedirect.cs" />
+    <Compile Include="RedirectManager.Shell.Framework.Pipelines\ViewQueryString.cs" />
+    <Compile Include="RedirectManager\Config.cs" />
+    <Compile Include="RedirectManager\FieldIDs.cs" />
+    <Compile Include="RedirectManager\TemplateIDs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Config\Include\RedirectManager.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(SolutionDir)bin\debug\RedirectManager.dll" "C:\inetpub\wwwroot\SC72PlayGround1\Website\bin"
+copy /Y "$(SolutionDir)bin\debug\RedirectManager.pdb" "C:\inetpub\wwwroot\SC72PlayGround1\Website\bin"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

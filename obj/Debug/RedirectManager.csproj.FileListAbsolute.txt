@@ -1,0 +1,42 @@
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\RedirectManager.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\RedirectManager.pdb
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Sitecore.Kernel.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Lucene.Net.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\ITHit.WebDAV.Server.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\HtmlAgilityPack.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Mvp.Xml.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Sitecore.Logging.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\ComponentArt.Web.UI.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Sitecore.Zip.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Sitecore.NVelocity.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Newtonsoft.Json.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\RadEditor.Net2.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Telerik.Web.UI.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Sitecore.Kernel.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Lucene.Net.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\HtmlAgilityPack.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Newtonsoft.Json.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\bin\Debug\Telerik.Web.UI.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\obj\Debug\RedirectManager.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\obj\Debug\RedirectManager.pdb
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - Extracted - SC7 respin\obj\Debug\RedirectManager.csprojResolveAssemblyReference.cache
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\RedirectManager.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\RedirectManager.pdb
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Sitecore.Kernel.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Sitecore.Logging.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Lucene.Net.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\ITHit.WebDAV.Server.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\HtmlAgilityPack.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Mvp.Xml.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\ComponentArt.Web.UI.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Sitecore.Zip.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Sitecore.NVelocity.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Newtonsoft.Json.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\RadEditor.Net2.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Telerik.Web.UI.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Sitecore.Kernel.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Lucene.Net.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\bin\Debug\Telerik.Web.UI.xml
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\obj\Debug\RedirectManager.dll
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\obj\Debug\RedirectManager.pdb
+E:\UserData\Documents\Visual Studio 2012\Projects\RedirectManagerModuleSource - WithQueryStrings\obj\Debug\RedirectManager.csprojResolveAssemblyReference.cache
